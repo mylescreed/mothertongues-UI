@@ -19,7 +19,7 @@ export class Browse {
   displayLetters: string[];
   letters: string[] = MTDInfo.config.L1.lettersInLanguage;
   initialLetters: string[];
-  selectedCategory: string = "words";
+  selectedCategory: string = "All Phrases";
   selectedLetter: string;
   startIndex: number = 0;
 
